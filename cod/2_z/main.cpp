@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <limits>
-#include "table_route_cipher.h"
+#include "table_route_cipher.h" 
 
 void displayMenu() {
     std::cout << "\n=== Шифр табличной маршрутной перестановки ===\n";
@@ -136,4 +136,5 @@ int main() {
     
     delete cipher;
     return 0;
+
 }
