@@ -3,7 +3,7 @@
 #include <locale>
 #include <stdexcept>
 #include "modAlphaCipher.h"
-using namespace std;
+using namespace std; 
 
 // проверка, чтобы строка состояла только из прописных русских букв
 bool isValid(const wstring& s)
@@ -66,4 +66,5 @@ int main(int argc, char **argv)
     }
     
     return 0;
+
 }
